@@ -1,0 +1,31 @@
+<!--index.wxml-->
+
+<view class='container'>
+
+  <view class='system'>
+    <view class='system-in'>
+    
+      <view class='mine' catchtap='toMyWords'>
+        <view class='mine-in'>
+          <image src='/images/shezhi.png' class='tubiao'></image>
+          <view>日语百词斩</view>
+        </view>
+        <view class='mine-in'>
+          <image src='/images/arrow.png' class='arrow'></image>
+        </view>
+      </view>
+
+      <view class='mine' catchtap='toMyListening'>
+        <view class='mine-in'>
+          <image src='/images/shezhi.png' class='tubiao'></image>
+          <view>单词听写</view>
+        </view>
+        <view class='mine-in'>
+          <image src='/images/arrow.png' class='arrow'></image>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+</view>

@@ -1,29 +1,43 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/history/history",
-    "pages/change/change"
+    "pages/word/index",
+    "pages/word/chooselist/chooselist",
+    "pages/search/search",
+    "pages/settings/settings",
+    "pages/settings/description/description",
+    "pages/settings/feedback/feedback",
+    "pages/settings/using/using"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#1c1b21",
-    "navigationBarTitleText": "翻译小助手",
+    "navigationBarTitleText": "EASY学外语",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "position": "top",
+    "backgroundColor": "#F7F7FA",
+    "borderStyle": "white",
     "color": "#595959",
     "selectedColor": "#1c1b21",
-    "borderStyle": "white",
     "list": [
-      {
-        "text": "翻译",
-        "pagePath": "pages/index/index"
-      },
-      {
-        "text": "历史",
-        "pagePath": "pages/history/history"
-      }
+        {
+          "pagePath": "pages/word/index",
+          "text": "单词",
+          "iconPath": "images/home.png",
+          "selectedIconPath": "images/home-selected.png"
+        },
+        {
+          "pagePath": "pages/search/search",
+          "text": "辞典",
+          "iconPath": "images/search.png",
+          "selectedIconPath": "images/search-selected.png"
+        },
+        {
+          "pagePath": "pages/settings/settings",
+          "text": "设置",
+          "iconPath": "images/settings.png",
+          "selectedIconPath": "images/settings-selected.png"
+        }
     ]
   },
   "sitemapLocation": "sitemap.json"

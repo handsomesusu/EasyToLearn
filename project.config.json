@@ -23,7 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -41,8 +41,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.6.0",
-  "appid": "wx0ac74bd6b10dff25",
-  "projectname": "sy%E7%BF%BB%E8%AF%91",
+  "appid": "wxd4340c72ab110582",
+  "projectname": "EASY学外语",
   "debugOptions": {
     "hidedInDevtools": []
   },
